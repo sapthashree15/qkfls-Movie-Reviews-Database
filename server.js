@@ -85,8 +85,6 @@ app.get('/', function (req, res, next) {
   }
 });
 
-
-
 // user is on the reviews page
 app.get("/reviews", function (request, response) {
   // get all the cloudant data and display the result
